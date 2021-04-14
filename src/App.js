@@ -1,22 +1,20 @@
 import {
   BrowserRouter as Router,
   Route,
-  Switch,
-  Link
+  Switch
 } from 'react-router-dom'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Portfolio from './pages/Portfolio'
+import Navibar from './components/Navbar'
+import Footer from './components/Footer'
 
 function App() {
   return (
+    <>
     <Router>
       <div>
-        <div>
-          <Link to='/'>About</Link><br/>
-          <Link to='/portfolio'>Portfolio</Link><br />
-          <Link to='/contact'>Contact Me</Link><br />
-        </div>
+        <Navibar />
         <Switch>
           <Route path='/portfolio'>
             <Portfolio />
@@ -24,12 +22,14 @@ function App() {
           <Route path='/contact'>
             <Contact />
           </Route>
-          <Route path='/'>
+          <Route exact path='/'>
             <About />
           </Route>
         </Switch>
       </div>
     </Router>
+    <Footer />
+    </>
   )
 }
 
