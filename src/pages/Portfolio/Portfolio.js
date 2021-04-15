@@ -27,7 +27,7 @@ const Portfolio = () => {
       </Row>
       <Row>
         <Col md="4">
-          <Card title="Code Quiz" text="Test your knowledge and take this coding quiz. Log your score and try to beat it." github='https://github.com/Kenneth-Dy/code_quiz' demo='https://kenneth-dy.github.io/code_quiz/' img='./assets/projects/quiz.png' />
+          <Card title="Code Quiz" text="Test your knowledge and take this coding quiz. Log your highscore and try to beat it." github='https://github.com/Kenneth-Dy/code_quiz' demo='https://kenneth-dy.github.io/code_quiz/' img='./assets/projects/quiz.png' />
         </Col>
         <Col md="4">
           <Card title="Employee Directory" text="A small project of random employees in a directory made in React." github='https://github.com/Kenneth-Dy/employee-directory' demo='https://kenneth-dy.github.io/employee-directory/' img='./assets/projects/employee.png' />
