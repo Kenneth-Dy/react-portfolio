@@ -1,7 +1,9 @@
 .footer {
-  /* background-color: #17a2b8; */
+  background-color: lightskyblue;
   height: 10vh;
   line-height: 10vh;
   text-align: center;
   width: 100%;
+  margin-top: 5vh;
 }
+

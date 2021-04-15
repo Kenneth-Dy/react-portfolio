@@ -11,7 +11,7 @@ const Navibar = () => {
   return (
     <>
     <div>
-      <Navbar light expand="md">
+      <Navbar light expand="md" className="navs">
           <Nav className="mr-auto" navbar>
             <NavItem>
               <Link to='/'>
@@ -26,11 +26,6 @@ const Navibar = () => {
             <NavItem>
               <Link to='/portfolio'>
                 <NavLink className="linkText">Projects</NavLink>
-              </Link>
-            </NavItem>
-            <NavItem>
-              <Link to='/contact'>
-                <NavLink className="linkText">Contact</NavLink>
               </Link>
             </NavItem>
           </Nav>

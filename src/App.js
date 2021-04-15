@@ -4,7 +4,6 @@ import {
   Switch
 } from 'react-router-dom'
 import About from './pages/About'
-import Contact from './pages/Contact'
 import Portfolio from './pages/Portfolio'
 import Navibar from './components/Navbar'
 import Footer from './components/Footer'
@@ -20,9 +19,6 @@ const App = () => {
           <Switch>
             <Route path='/portfolio'>
               <Portfolio />
-            </Route>
-            <Route path='/contact'>
-              <Contact />
             </Route>
             <Route exact path='/'> 
               <About />

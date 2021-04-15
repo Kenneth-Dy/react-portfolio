@@ -1,6 +1,6 @@
 .imgStyle {
   width: 100%;
-  margin-top: 2vh
+  margin-top: 2vh;
 }
 
 .leftStyle, .rightStyle {
@@ -10,6 +10,9 @@
   box-shadow: 5px 5px 5px .5px rgb(134, 217, 255);
 }
 
+.header {
+  margin-top: 1vh;
+}
 /* .rightStyle {
   border: 2px solid rgba(0, 174, 255, 0.562);
   margin: 10px;
