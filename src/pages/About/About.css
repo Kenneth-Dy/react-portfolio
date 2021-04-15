@@ -1,0 +1,13 @@
+.imgStyle {
+    width: 100%; 
+    margin-top: 2vh
+  }
+
+.leftStyle {
+    background-color:rgba(146, 255, 255, 0.438);
+    /* margin: 5vh; */
+}
+
+.rightStyle {
+  background-color: gold;
+}

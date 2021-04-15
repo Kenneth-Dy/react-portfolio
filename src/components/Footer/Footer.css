@@ -1,9 +1,10 @@
 .footer {
-  background-color: #17a2b8;
+  /* background-color: #17a2b8; */
   height: 10vh;
   line-height: 10vh;
   text-align: center;
-  position: fixed;
+  display: block; 
+  position: relative;
   left: 0;
   bottom: 0;
 }
