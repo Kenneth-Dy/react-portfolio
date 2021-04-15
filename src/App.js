@@ -8,26 +8,29 @@ import Contact from './pages/Contact'
 import Portfolio from './pages/Portfolio'
 import Navibar from './components/Navbar'
 import Footer from './components/Footer'
+import './App.css'
 
-function App() {
+const App = () => {
   return (
     <>
-    <Router>
-      <div>
-        <Navibar />
-        <Switch>
-          <Route path='/portfolio'>
-            <Portfolio />
-          </Route>
-          <Route path='/contact'>
-            <Contact />
-          </Route>
-          <Route exact path='/'>
-            <About />
-          </Route>
-        </Switch>
-      </div>
-    </Router>
+    <main className='mainBody'>
+      <Router>
+        <div>
+          <Navibar />
+          <Switch>
+            <Route path='/portfolio'>
+              <Portfolio />
+            </Route>
+            <Route path='/contact'>
+              <Contact />
+            </Route>
+            <Route exact path='/'> 
+              <About />
+            </Route>
+          </Switch>
+        </div>
+      </Router>
+    </main>
     <Footer />
     </>
   )

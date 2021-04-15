@@ -1,13 +1,17 @@
 .imgStyle {
-    width: 100%; 
-    margin-top: 2vh
-  }
-
-.leftStyle {
-    background-color:rgba(146, 255, 255, 0.438);
-    /* margin: 5vh; */
+  width: 100%;
+  margin-top: 2vh
 }
 
-.rightStyle {
-  background-color: gold;
+.leftStyle, .rightStyle {
+  border: 2px solid rgba(0, 174, 255, 0.562);
+  /* background-color: rgba(0, 174, 255, 0.562); */
+  margin: 10px;
+  box-shadow: 5px 5px 5px .5px rgb(134, 217, 255);
 }
+
+/* .rightStyle {
+  border: 2px solid rgba(0, 174, 255, 0.562);
+  margin: 10px;
+  box-shadow: 5px 5px rgb(134, 217, 255);
+} */

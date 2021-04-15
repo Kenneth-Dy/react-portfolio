@@ -1,11 +1,10 @@
-import { Container } from 'reactstrap'
 import './Footer.css'
 
 const Footer = () => {
   return (
-    <Container className='footer' fluid={true} >
+    <div className='footer' >
       <p className='footerText'>Site Created By: Ken Dy</p>
-    </Container>
+    </div>
   )
 }
 
