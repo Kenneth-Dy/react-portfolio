@@ -5,13 +5,17 @@ import {
   List
 } from 'reactstrap'
 import './About.css'
+import PDF from '../../components/AboutAssets/Kenneth_Dy_Resume.pdf'
+import Cover from '../../components/AboutAssets/snow_pic_2by1.jpg'
 
 const About = () => {
 
   return (
     <Container>
       <Row>
-        <img src="./assets/snow_pic_2by1.jpg" alt="Cover" className='imgStyle'></img>
+        <Col>
+          <img src={Cover} alt="Cover" className='imgStyle'></img>
+        </Col>
       </Row>
       <Row>
         <Col className='leftStyle'>
@@ -23,7 +27,7 @@ const About = () => {
           </p>
         </Col>
         <Col className='rightStyle'>
-          <h3 className='header'>Contact</h3>
+          <h3 className='aboutHeader'>Contact</h3>
           <List type='unstyled'>
             <li>
               Email: kennethndy@yahoo.com
@@ -33,8 +37,8 @@ const About = () => {
               </li>
           </List>
           <h3>Resume</h3>
-            <a href='./assets/Kenneth_Dy_Resume.pdf'>Link</a>
-          <h3 className='header'>Social</h3>
+            <a href={PDF}>Link</a>
+          <h3 className='aboutHeader'>Social</h3>
             <a href='https://linkedin.com/in/kenneth-dy-506496170'><i class="fab fa-linkedin fa-3x"></i> </a>
             <a href='https://github.com/Kenneth-Dy'><i class="fab fa-github-square fa-3x"></i> </a>
 

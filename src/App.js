@@ -17,10 +17,10 @@ const App = () => {
         <div>
           <Navibar />
           <Switch>
-            <Route path='/react-protfolio/portfolio'>
+            <Route path='/react-portfolio/portfolio'>
               <Portfolio />
             </Route>
-            <Route exact path='/react-portfolio/'> 
+            <Route exact path='/react-portfolio'> 
               <About />
             </Route>
           </Switch>
